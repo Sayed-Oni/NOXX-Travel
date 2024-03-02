@@ -4,13 +4,18 @@
   padding: 0 20px;
 } */
 /* NAV START */
-
+@media (min-width: 992px)
+{
 nav {
   display: flex;
   justify-content: space-between;
   margin: 3em 0;
   padding: 0 10em;
   font-family: "Mulish";
+}
+#hamburger{
+visibility: hidden;
+position: absolute;
 }
 .nav-logo {
   display: flex;
@@ -335,4 +340,238 @@ footer {
   border-bottom: 2px solid rgba(19, 19, 24, 0.10);black;
   margin-left: 15%;
 }
+}
 /* FOOTER END */
+
+/* Responsive */
+@media (max-width: 600px)
+{
+    header{
+        margin: 10px 20px;
+        /* padding: 5px; */
+        /* width: 40%; */
+        height: 80vh;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-logo {
+        /* padding: 10px 30px; */
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
+    #hamburger{
+        visibility: visible;
+        text-decoration: none;
+        color: black;
+        padding-left: 70px;
+        font-size: 30px;
+    }
+    .nav-logo h1{
+        display: flex;
+        padding-left: 10px;
+        font-family: "Mulish";
+        font-weight: 800;
+    }
+    
+    .nav-links{
+        visibility: hidden;
+        position: absolute;
+    }
+    .banner img{
+        width: 100%;
+        min-height: 70vh;
+        border-radius: 20px;
+        }
+    .banner{
+    width: 100%;
+    height: 70vh;
+    }
+    .banner-inside {
+        /* margin: 10px 20px; */
+        display: flex;
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        top: 25%;
+        left: 0%;
+      }
+      .banner-title {
+        width: 80%;
+        height: 50vh;
+      }
+      .banner-title h1 {
+        font-family: "Mulish";
+        color: white;
+        font-size: 2em;
+        font-weight: 800;
+        margin: 20px 0;
+      }
+      .banner-title p {
+        font-family: "Mulish";
+        color: white;
+        font-size: 10px;
+        margin: 20px 0;
+      }
+      .input-field {
+        margin-top: 70px;
+        padding: 30px;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      .input-field input {
+        text-align: center;
+        width: 90%;
+        padding: 15px;
+        margin: 5px;
+        text-decoration: none;
+        border-radius: 10px;
+        border: none;
+      }
+      .input-field .btn-same {
+        width: 100%;
+        text-decoration: none;
+        border-radius: 10px;
+        border: none;
+        padding: 5%;
+        margin: 10px;
+      }
+      .input-field .btn-srch {
+        width: 100%;
+        text-decoration: none;
+        border-radius: 10px;
+        border: none;
+        background-color: #ff5400;
+        color: white;
+        padding: 5%;
+      }
+      .input-field button i {
+        padding-left: 50px;
+      }
+      .input-field .btn-srch i {
+        padding-left: 0;
+        padding-right: 30px;
+      }
+      .left-side {
+        margin: 30px 20px;
+      }
+      .left-side h1 {
+        font-size: 2em;
+        margin: 30px 20px;
+        font-weight: 800;
+      }
+      .left-side p {
+        font-size: 1em;
+        padding: 10px;
+      }
+      .left-side li {
+        font-size: 1em;
+        padding: 10px;
+      }
+      .right-side {
+        width: 100%;
+      }
+      #mountain-img {
+        width: 100%;
+      }
+      .third-section {
+        font-family: "Mulish";
+      }
+      .third-title {
+        text-align: center;
+      }
+      .third-title h1 {
+        font-size: em;
+        font-weight: 800;
+        margin-bottom: 0;
+      }
+      .third-title p {
+        font-size: 1em;
+        padding: 5px;
+      }
+      .third-section img{
+    padding: 5px 0;
+    }
+    #mal {
+        width: 100%;
+      }
+      #ind {
+        width: 100%;
+      }
+      #sri {
+        width: 100%;
+      }
+      #na {
+        width: 100%;
+      }
+      #kas {
+        width: 100%;
+      }
+      #bag {
+        width: 100%;
+      }
+      #ban {
+        width: 100%;
+      }
+
+      .fourth-section {
+        font-family: "Mulish";
+        /* justify-content: space-between; */
+      }
+      .fourth-section .left_side {
+        border: 2px solid red;
+    border-radius: 30px;
+    margin: 20px;
+    width: 70%;
+    padding: 30px;
+    margin-right: 40px;
+      }
+      .news-title {
+        padding: 20px;
+        border-bottom: 2px solid gainsboro;
+        width: 90%;
+      }
+      .news-title h1 {
+        font-size: 2em;
+        margin-bottom: 5px;
+      }
+      .news-title p {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 0;
+        color: #5a5a5d;
+      }
+      .news-input {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+      }
+      .news-input input {
+        padding: 15px;
+        margin: 20px;
+        width: 70%;
+        border: none;
+        border-radius: 10px;
+        background-color: gainsboro;
+      }
+      #subs {
+        background-color: #ff5400;
+        color: white;
+        text-align: center;
+        width: 75%;
+      }
+
+
+
+      
+
+      img{
+    width: 100%;}
+}
