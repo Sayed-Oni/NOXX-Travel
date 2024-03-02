@@ -216,7 +216,6 @@ position: absolute;
   margin: 3em 0;
   padding: 0 10em;
   font-family: "Mulish";
-  /* justify-content: space-between; */
 }
 .fourth-section .left_side {
   border: 2px solid red;
@@ -263,12 +262,10 @@ position: absolute;
   cursor: pointer;
 }
 .fourth-section .right_side {
-  /* border: 2px solid red; */
   width: 50%;
 }
 .fourth-section .right_side {
   display: flex;
-  /* left: 50%; */
 }
 .fourth-section .right_side img {
   width: 48%;
@@ -391,7 +388,6 @@ footer {
     height: 70vh;
     }
     .banner-inside {
-        /* margin: 10px 20px; */
         display: flex;
         position: absolute;
         text-align: center;
