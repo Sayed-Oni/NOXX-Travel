@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+/* * {
+  margin: 20px 0;
+  padding: 0 20px;
+} */
+/* NAV START */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0;
+  padding: 0 10em;
+  font-family: "Mulish";
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-logo img {
+  /* width: 48px;
+  height: 56px; */
+  padding: 0 1em 0 0;
+}
+.nav-logo h1 {
+  font-weight: 900;
+}
+.nav-links {
+  padding: 20px 0;
+}
+#home-clr {
+  color: #ff5400;
+}
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  padding: 0 1.5em;
+  font-weight: 800;
+}
+.nav-links #home-clr:hover {
+  color: black;
+}
+.nav-links a:hover {
+  color: #ff5400;
+}
+
+/* NAV END */
+
+/* BANNER START */
+
+.banner {
+  margin: 3em 0;
+  padding: 0 10em;
+  /* display: flex; */
+}
+.banner img {
+  position: relative;
+  width: 100%;
+  filter: brightness(75%);
+}
+.banner-inside {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  height: 40vh;
+  top: 25%;
+  /* left: 25%; */
+}
+.banner-title {
+  width: 55%;
+  height: 5vh;
+}
+.banner-title h1 {
+  font-family: "Mulish";
+  color: white;
+  font-size: 5em;
+  font-weight: 800;
+  margin: 20px 0;
+}
+.banner-title p {
+  font-family: "Mulish";
+  color: white;
+  font-size: 20px;
+  margin: 20px 0;
+}
+.input-field {
+  margin-top: 100px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.input-field input {
+  text-align: start;
+  width: 15%;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 10px;
+  border: none;
+}
+.input-field .btn-same {
+  width: 20%;
+  text-decoration: none;
+  border-radius: 10px;
+  border: none;
+}
+.input-field .btn-srch {
+  width: 20%;
+  text-decoration: none;
+  border-radius: 10px;
+  border: none;
+  background-color: #ff5400;
+  color: white;
+}
+.input-field button i {
+  padding-left: 50px;
+}
+.input-field .btn-srch i {
+  padding-left: 0;
+  padding-right: 30px;
+}
+.input-field button:hover {
+  cursor: pointer;
+}
+
+/* BANNER END */
+
+/* 2nd Section START */
+
+.second-section {
+  display: flex;
+  margin: 3em 0;
+  padding: 0 10em;
+  font-family: "Mulish";
+}
+.left-side {
+  padding-right: 20em;
+}
+.left-side h1 {
+  font-size: 4em;
+  margin: 30px 0;
+  font-weight: 800;
+}
+.left-side p {
+  font-size: 1em;
+  padding: 10px;
+}
+.left-side li {
+  font-size: 1em;
+  padding: 10px;
+}
+.right-side {
+  width: 100%;
+}
+
+/* 2nd Section END */
+
+/* 3rd Section START */
+
+.third-section {
+  margin: 3em 0;
+  padding: 0 10em;
+  font-family: "Mulish";
+}
+.third-title {
+  text-align: center;
+}
+.third-title h1 {
+  font-size: 4em;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+.third-title p {
+  font-size: 1em;
+  padding: 10px 30em;
+}
+.third-section img {
+  padding: 6px;
+}
+.third-section .row {
+  /* padding-left: 10em; */
+}
+#mal {
+  width: 49%;
+}
+#ind {
+  width: 49%;
+}
+#sri {
+  width: 32%;
+}
+#na {
+  width: 41%;
+}
+#kas {
+  width: 24%;
+}
+#bag {
+  width: 40%;
+}
+#ban {
+  width: 58%;
+}
+
+/* 3rd Section END */
+
+/* 4th section START */
+.fourth-section {
+  display: flex;
+  margin: 3em 0;
+  padding: 0 10em;
+  font-family: "Mulish";
+  /* justify-content: space-between; */
+}
+.fourth-section .left_side {
+  border: 2px solid red;
+  border-radius: 30px;
+  width: 35%;
+  padding: 30px;
+  margin-right: 40px;
+}
+.news-title {
+  padding: 40px;
+  border-bottom: 2px solid gainsboro;
+  width: 70%;
+}
+.news-title h1 {
+  font-size: 3em;
+  margin-bottom: 5px;
+}
+.news-title p {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 0;
+  color: #5a5a5d;
+}
+.news-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.news-input input {
+  padding: 15px;
+  margin: 20px;
+  width: 70%;
+  border: none;
+  border-radius: 10px;
+  background-color: gainsboro;
+}
+#subs {
+  background-color: #ff5400;
+  color: white;
+  text-align: center;
+  width: 75%;
+}
+#subs:hover {
+  cursor: pointer;
+}
+.fourth-section .right_side {
+  /* border: 2px solid red; */
+  width: 50%;
+}
+.fourth-section .right_side {
+  display: flex;
+  /* left: 50%; */
+}
+.fourth-section .right_side img {
+  width: 48%;
+  height: 54vh;
+  position: absolute;
+  z-index: 1;
+}
+.fourth-section .rotate-txt {
+  /* font-size: 30px; */
+  position: absolute;
+  width: 20%;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #ff5400;
+  left: 70%;
+  transform: rotate(13deg);
+  z-index: 3;
+  /* top: 20%; */
+}
+.fourth-section .rotate-txt h3 {
+  color: #ededff;
+  font-size: 2em;
+  margin: 15px 0;
+}
+.fourth-section .rotate-txt h1 {
+  color: white;
+  font-size: 2em;
+  margin: 15px 0;
+}
+
+/* 4th section END */
+
+/* FOOTER START */
+footer {
+  height: 50vh;
+  padding-top: 10%;
+  background: rgba(19, 19, 24, 0.05);
+  margin-top: 10%;
+}
+.footer-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+.footer-head img {
+  padding-right: 20px;
+  width: 5%;
+  height: 8vh;
+}
+
+.footer-head h1 {
+  font-size: 3em;
+  font-family: "Mulish";
+  font-weight: 800;
+}
+.footer-second {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Mulish";
+}
+.footer-second i {
+  padding: 20px;
+  font-size: 40px;
+}
+.ikons {
+  padding-bottom: 20px;
+  width: 70%;
+  border-bottom: 2px solid rgba(19, 19, 24, 0.10);black;
+  margin-left: 15%;
+}
+/* FOOTER END */
